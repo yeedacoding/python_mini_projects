@@ -18,3 +18,5 @@
  6. creating vaccine이 100%가 되면 syringe(필살기) 발사(space-bar)
  7. syringe에 맞은 enemy의 목숨 -1
  8. enemy 목숨이 0이 되면 ending 화면으로 넘어가기
+
+![player죽음](https://user-images.githubusercontent.com/83167676/126862858-86d1e066-368e-4da6-bf42-37700c5aeb46.gif)

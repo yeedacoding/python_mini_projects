@@ -1,7 +1,5 @@
 # python_mini_projects
-## Mini projects using python
-
-####  Simple calculator
+##  Simple calculator
 - 주요 기능
  1. 사칙연산
  2. C버튼을 누르면 초기화

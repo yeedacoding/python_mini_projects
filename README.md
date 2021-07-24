@@ -19,4 +19,4 @@
  7. syringe에 맞은 enemy의 목숨 -1
  8. enemy 목숨이 0이 되면 ending 화면으로 넘어가기
 
-![player죽음](https://user-images.githubusercontent.com/83167676/126862858-86d1e066-368e-4da6-bf42-37700c5aeb46.gif)
+![player죽음](https://user-images.githubusercontent.com/83167676/126862858-86d1e066-368e-4da6-bf42-37700c5aeb46.gif) ![엔딩](https://user-images.githubusercontent.com/83167676/126863347-27b21820-fea8-4287-b099-82b6b4fb172a.gif)

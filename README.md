@@ -1,11 +1,13 @@
 # python_mini_projects
 ##  Simple calculator
-- 주요 기능
+- 주요 기능  
  1. tkinter 활용
  2. 사칙연산
  3. C버튼을 누르면 초기화
  4. 잘못된 operator가 입력되면 오류 발생
- 
+
+  ![사칙연산2](https://user-images.githubusercontent.com/83167676/126863415-525e5b2c-dfad-4851-879f-a526f6df37b5.gif)
+
 ## Avoid Virus game
 - 주요 기능
  1. pygame 활용

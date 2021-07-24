@@ -6,8 +6,6 @@
  3. C버튼을 누르면 초기화
  4. 잘못된 operator가 입력되면 오류 발생
  
-![사칙연산1](https://user-images.githubusercontent.com/83167676/126858050-4be6c712-8c04-4ff3-9fdf-a08e22ab67de.gif)
-
 ## Avoid Virus game
 - 주요 기능
  1. pygame 활용

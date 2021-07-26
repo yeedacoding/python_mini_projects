@@ -27,6 +27,7 @@ if response.status_code != 200:
     print("error! because ", response.json())
 else:  # 성공했다면
     count = 0
+    print(response.json())
     for image_info in response.json()['documents']:
         print(f"[{count}th] image_url = ", image_info['image_url'])
         # 저장될 이미지 파일명 설정

@@ -238,9 +238,9 @@ def setText():
 
     if isGameOver:  # game over가 되면 안내문 생성
         SCREEN.blit(mFont.render(
-            'Game Over!!', "test", True, "red"), (150, 300, 0, 0))
+            'Game Over!!', True, True, "red"), (150, 300, 0, 0))
         SCREEN.blit(mFont.render(
-            'Press R - Restart', "test", True, "red"), (140, 320, 0, 0))
+            'Press R - Restart', True, True, "red"), (140, 320, 0, 0))
 
 
 def shootSy():
@@ -252,10 +252,10 @@ def shootSy():
     if score < 2500:
         score += 1
         SCREEN.blit(mFont.render(
-            f'Creating Vaccine... : {round((score/2500)*100)}%', "test", True, "green"), (10, SCREEN_HEIGHT-25, 0, 0))
+            f'Creating Vaccine... : {round((score/2500)*100)}%', True, True, "green"), (10, SCREEN_HEIGHT-25, 0, 0))
     elif score == 2500:
         SCREEN.blit(mFont.render(
-            f'Shoot Vaccine!!', "test", "red", "yellow"), (10, SCREEN_HEIGHT-25, 0, 0))
+            f'Shoot Vaccine!!', True, "red", "yellow"), (10, SCREEN_HEIGHT-25, 0, 0))
 
 ##############################################################################################
 ##############################################################################################
@@ -267,24 +267,24 @@ def startImg():
     mFont = pygame.font.SysFont("arial", 20, True, False)  # 왜 글로벌로 안 가져와지냐..
     SCREEN.blit(start, recStart)
     SCREEN.blit(nFont.render(
-        f'AVOID FUCKING VIRUS', "test", "Red", False), (15, 60, 0, 0))
+        f'AVOID FUCKING VIRUS', True, "Red", False), (15, 60, 0, 0))
     SCREEN.blit(player1, recPlayer1)
     SCREEN.blit(mFont.render(
-        f': player', "test", "black"), (85, 150, 0, 0))
+        f': player', True, "black"), (85, 150, 0, 0))
     SCREEN.blit(virus1, recVirus1)
     SCREEN.blit(mFont.render(
-        f' : avoid this virus!', "test", "black"), (80, 210, 0, 0))
+        f' : avoid this virus!', True, "black"), (80, 210, 0, 0))
     SCREEN.blit(hp1, recHp1)
     SCREEN.blit(mFont.render(
-        f' : player\'s life X 3', "test", "black"), (80, 280, 0, 0))
+        f' : player\'s life X 3', True, "black"), (80, 280, 0, 0))
     SCREEN.blit(hpe1, recHpe1)
     SCREEN.blit(mFont.render(
-        f': enemy\'s life X 5', "test", "black"), (80, 350, 0, 0))
+        f': enemy\'s life X 5', True, "black"), (80, 350, 0, 0))
     SCREEN.blit(syringe1, recSy1)
     SCREEN.blit(mFont.render(
-        f': Shoot Super Vaccine!(Press Space-bar)', "test", "black"), (70, 420, 0, 0))
+        f': Shoot Super Vaccine!(Press Space-bar)', True, "black"), (70, 420, 0, 0))
     SCREEN.blit(mFont.render(
-        f'Press Enter to Start', "test", "red", False), (125, 500, 0, 0))
+        f'Press Enter to Start', True, "red", False), (125, 500, 0, 0))
 
 
 def backgroundImg():
@@ -314,11 +314,11 @@ def endingImg():
     mFont = pygame.font.SysFont("arial", 20, True, False)
     SCREEN.blit(ending, recEnding)
     SCREEN.blit(nFont.render(
-        f' You Win!!', "test", "black"), (140, 150, 0, 0))
+        f' You Win!!', True, "black"), (140, 150, 0, 0))
     SCREEN.blit(mFont.render(
-        f' Do you want to restart the game?', "test", "black"), (80, 330, 0, 0))
+        f' Do you want to restart the game?', True, "black"), (80, 330, 0, 0))
     SCREEN.blit(mFont.render(
-        f' Press Enter! ', "test", "black"), (160, 350, 0, 0))
+        f' Press Enter! ', True, "black"), (160, 350, 0, 0))
 
 
 ##############################################################################################

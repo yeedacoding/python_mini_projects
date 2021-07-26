@@ -20,3 +20,10 @@
  8. enemy 목숨이 0이 되면 ending 화면으로 넘어가기
 
 ![player죽음](https://user-images.githubusercontent.com/83167676/126862858-86d1e066-368e-4da6-bf42-37700c5aeb46.gif) ![엔딩](https://user-images.githubusercontent.com/83167676/126863347-27b21820-fea8-4287-b099-82b6b4fb172a.gif)
+
+## 카카오 Open API를 이용한 이미지 크롤링
+- 주요 기능
+ 1. 카카오 Open API 활용
+ 2. requests 모듈을 통한 API 통신
+ 3. JSON 파일 response
+ 4. image url 주소를 받아 바이너리 쓰기 모드로 저장하여 이미지 

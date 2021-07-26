@@ -1,6 +1,3 @@
-# 	806d6fb858b3d69007a6b5dda8d1f885
-# developers.kakao.com/docs/latest/ko/daum-search/dev-guide#search-imgae
-
 import requests
 import json
 

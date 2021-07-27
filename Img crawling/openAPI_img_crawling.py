@@ -13,7 +13,7 @@ def save_image(image_url, file_name):
 
 # 이미지 검색
 url = "https://dapi.kakao.com/v2/search/image"
-headers = {"Authorization": "KakaoAK <your rest api app key"}
+headers = {"Authorization": "KakaoAK <your rest api app key>"}
 data = {"query": "펭수"}
 url.encode("UTF8")
 # 이미지 검색 요청

@@ -27,3 +27,11 @@
  2. requests 모듈을 통한 API 통신
  3. JSON 파일 response
  4. image url 주소를 받아 바이너리 쓰기 모드로 저장하여 이미지 
+
+## 4. 카카오 Open API를 이용한 나에케 카카오톡 보내기
+- 주요 기능
+ 1. 카카오 Open API 활용
+ 2. requests 모듈을 통한 API 통신
+ 3. JSON 파일 response
+ 4. 인증 코드와 access_token, refresh_token 받기
+ 5. 메세지 템플릿을 이용해 텍스트, 리스트 템플릿 메세지 전송하기

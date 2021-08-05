@@ -8,8 +8,9 @@ capture.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
 
 # haar cascade 검출기 객체 선언
 face_cascade = cv2.CascadeClassifier(
-    'openCV_face_tracking/haarcascade_frontalface_default.xml')
-eye_cascade = cv2.CascadeClassifier('openCV_face_tracking/haarcascade_eye.xml')
+    'openCV_face_tracking/haar_cascade/haarcascade_frontalface_default.xml')
+eye_cascade = cv2.CascadeClassifier(
+    'openCV_face_tracking/haar_cascade/haarcascade_eye.xml')
 # 무한루프
 while True:
     ret, frame = capture.read()     # 카메라로부터 현재 영상을 받아 frame에 저장, 잘 받았다면 ret가 참

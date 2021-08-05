@@ -35,3 +35,12 @@
  3. JSON 파일 response
  4. 인증 코드와 access_token, refresh_token 받기
  5. 메세지 템플릿을 이용해 텍스트, 리스트 템플릿 메세지 전송하기
+
+## 5. Face Tracking (openCV)
+
+- 주요 기능
+1. openCV의 Video Capture 기능을 활용해 카메라 디바이스에 접근
+2. haar cascade 검출기 사용
+3. 눈, 입 검출하여 영상에 사각형 도형으로 띄우기
+
+![facetracking](https://user-images.githubusercontent.com/83167676/128360641-aebd46bb-d690-4023-9222-3c2d685f99ca.gif)
